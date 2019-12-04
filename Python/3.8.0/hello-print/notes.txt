@@ -1,0 +1,5 @@
+docker build -t python-hello-print:1.0.0 .
+docker run -it -v /home/di/Entwicklung/Docker/Python/3.8.0/hello-print:/app --name python-hello-print python-hello-print:1.0.0
+docker start -i bb
+docker run -it -v /home/di/Entwicklung/Docker/Python/3.8.0/hello-print:/app --name python-hello-print python-hello-print:1.0.0 /bin/bash
+docker start -i f8
