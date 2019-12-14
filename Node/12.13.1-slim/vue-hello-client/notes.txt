@@ -1,0 +1,26 @@
+﻿Ordnerstruktur anlegen:
+\Entwicklung\Docker\Node\12.13.1\vue-hello-client
+
+Github:
+git pull
+
+Verzeichnis hello komplett löschen
+
+Umgebung: Node.js/Windows 10 Pro
+Ausführung von Skripts aktivieren:
+#>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+
+Umbegung: Docker/Windows 10 Pro
+#>docker-compose up
+CTRL-D
+#>docker-compose up -d
+#>docker-compose exec vue-hello-client bash
+
+Vue-App mit vue-cli erzeugen:
+#>vue create hello
+#>git restore app/hello/public/index.html app/hello/src/App.vue app/hello/src/components/HelloWorld.vue
+#>cd hello
+#>npm run serve
+
+
+http://localhost:8080
