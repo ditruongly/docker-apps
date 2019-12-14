@@ -1,5 +1,5 @@
-Ordnerstruktur anlegen:
-\Entwicklung\Docker\Node\12.13.1\vue-hello-client
+﻿Ordnerstruktur anlegen:
+\Entwicklung\Docker\Node\12.13.1\vue-hello-client\app
 
 Umgebung: Node.js/Windows 10 Pro
 Ausführung von Skripts aktivieren:
@@ -13,6 +13,7 @@ CTRL-D
 
 Vue-App mit vue-cli erzeugen:
 #>vue create hello
+#>git restore public/index.html src/App.vue src/components/HelloWorld.vue
 #>cd hello
 #>npm run serve
 
