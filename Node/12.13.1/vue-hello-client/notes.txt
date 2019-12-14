@@ -1,0 +1,20 @@
+Ordnerstruktur anlegen:
+\Entwicklung\Docker\Node\12.13.1\vue-hello-client
+
+Umgebung: Node.js/Windows 10 Pro
+Ausführung von Skripts aktivieren:
+#>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+
+Umbegung: Docker/Windows 10 Pro
+#>docker-compose up
+CTRL-D
+#>docker-compose up -d
+#>docker-compose exec vue-hello-client bash
+
+Vue-App mit vue-cli erzeugen:
+#>vue create hello
+#>cd hello
+#>npm run serve
+
+
+http://localhost:8080
