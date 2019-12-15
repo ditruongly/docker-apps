@@ -7,8 +7,11 @@ Ausführung von Skripts aktivieren:
 Umbegung: Docker/Windows 10 Pro
 #>docker-compose up
 CTRL-D
+oder
 #>docker-compose up -d
 #>docker-compose exec vue-hello-client bash
+oder
+#>docker-compose run vue-hello-client bash
 
 Vue-App mit vue-cli erzeugen:
 #>vue create hello
@@ -18,5 +21,5 @@ Vue-App mit vue-cli erzeugen:
 #>cd hello
 #>npm run serve
 
-
+#>docker cp hello/. containerid:/app/hello
 http://localhost:8080
