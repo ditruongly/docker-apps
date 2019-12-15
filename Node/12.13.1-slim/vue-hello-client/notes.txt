@@ -1,10 +1,4 @@
-﻿Ordnerstruktur anlegen:
-\Entwicklung\Docker\Node\12.13.1\vue-hello-client
-
-Github:
-git pull
-
-Verzeichnis hello komplett löschen
+﻿Verzeichnis hello komplett löschen
 
 Umgebung: Node.js/Windows 10 Pro
 Ausführung von Skripts aktivieren:
