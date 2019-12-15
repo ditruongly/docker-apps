@@ -18,7 +18,9 @@ CTRL-D
 
 Vue-App mit vue-cli erzeugen:
 #>vue create hello
-#>git restore app/hello/public/index.html app/hello/src/App.vue app/hello/src/components/HelloWorld.vue
+#>git checkout -- src/components/HelloWorld.vue
+#>git checkout -- src/App.vue
+#>git checkout -- public/index.html
 #>cd hello
 #>npm run serve
 
