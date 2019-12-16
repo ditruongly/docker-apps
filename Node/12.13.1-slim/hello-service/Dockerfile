@@ -3,8 +3,7 @@
 # Define what image to build from
 FROM node:12.13.1-slim
 
-# Create app directory to hold the application code inside the image
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -18,8 +17,8 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# Bind this app to port 8080
-EXPOSE 8080
+# Bind this app to port 8081
+EXPOSE 8081
 
 # Define the command to run this app using CMD
 CMD [ "npm", "start" ]
