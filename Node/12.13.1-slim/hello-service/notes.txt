@@ -1,0 +1,20 @@
+Quellen:
+https://expressjs.com/en/resources/middleware/cors.html
+
+Learning Docker 06 : Basic Docker bridge network
+https://www.youtube.com/watch?v=y1OpxqTcuOM
+
+How to address backend host with axios, when frontend and backend are in virtual docker network
+https://stackoverflow.com/questions/56374921/how-to-address-backend-host-with-axios-when-frontend-and-backend-are-in-virtual/56375180
+
+
+Praxis:
+
+----------------------------------------------------------------------------------
+#>docker-compose up -d
+#>docker-compose exec hello-service bash
+oder
+#>docker-compose run -p 8080:8080 --name express-hello-service hello-service bash
+----------------------------------------------------------------------------------
+
+#>npm start

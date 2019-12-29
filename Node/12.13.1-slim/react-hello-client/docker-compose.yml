@@ -1,15 +1,14 @@
 version: '3'
 
-
 services:
-    hello-service:
-        image: express-hello-service:1.0.0
+    react-hello-client:
+        image: react-hello-client:1.0.0
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: hello-service
+        container_name: react-hello-client
         ports:
-            - "8080:8080"
+            - "8081:3000"
         volumes:
             - ./app:/app
         stdin_open: true

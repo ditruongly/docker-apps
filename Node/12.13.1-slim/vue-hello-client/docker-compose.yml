@@ -13,3 +13,8 @@ services:
             - ./app:/app
         stdin_open: true
         tty: true
+
+networks:
+    default:
+        external:
+            name: mynetwork

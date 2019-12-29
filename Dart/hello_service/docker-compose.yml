@@ -2,12 +2,12 @@ version: '3'
 
 
 services:
-    hello-service:
-        image: express-hello-service:1.0.0
+    dart-hello-service:
+        image: dart-hello-service:1.0.0
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: hello-service
+        container_name: dart-hello-service
         ports:
             - "8080:8080"
         volumes:

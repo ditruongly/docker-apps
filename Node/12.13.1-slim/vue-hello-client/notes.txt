@@ -1,4 +1,9 @@
-﻿Verzeichnis hello komplett löschen
+﻿Quellen:
+https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/
+https://expressjs.com/en/resources/middleware/cors.html
+
+Praxis:
+Verzeichnis hello komplett löschen
 
 Umgebung: Node.js/Windows 10 Pro
 Ausführung von Skripts aktivieren:
@@ -19,6 +24,7 @@ Vue-App mit vue-cli erzeugen:
 #>git checkout -- src/App.vue
 #>git checkout -- public/index.html
 #>cd hello
+#>npm install --save axios
 #>npm run serve
 
 #>docker cp hello/. containerid:/app/hello

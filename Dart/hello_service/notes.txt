@@ -1,0 +1,14 @@
+Quellen:
+https://dart.dev
+
+Praxis:
+----------------------------------------------------------------------------------
+#>docker-compose build
+#>docker-compose up -d
+#>docker-compose exec dart-hello-service bash
+oder
+#>docker-compose run -p 8080:8080 --name dart-hello-service dart-hello-service bash
+----------------------------------------------------------------------------------
+#>pub global activate stagehand
+----------------------------------------------------------------------------------
+#>dart main.dart

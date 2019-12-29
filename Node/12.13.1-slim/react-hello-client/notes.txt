@@ -1,0 +1,24 @@
+﻿Quellen:
+https://alligator.io/react/axios-react/
+
+Praxis:
+Verzeichnis hello komplett löschen
+
+#>docker-compose build
+#>docker-compose up -d
+#>docker-compose exec react-hello-client bash
+
+#>npx create-react-app hello
+#>git checkout -- src/App.js
+#>git checkout -- src/index.js
+#>cd hello
+#>yarn add axios@16.12.0
+#>npm install --save axios@0.19.0
+
+start app in development environment
+#>yarn start
+
+Bundles the app into static files for production.
+#>yarn build
+
+http://localhost:8081

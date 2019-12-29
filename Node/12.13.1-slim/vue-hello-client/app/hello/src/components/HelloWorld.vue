@@ -16,7 +16,7 @@ export default {
   mounted () {
     axios
       .get('http://localhost:8081')
-      .then(response => (this.msg = response))
+      .then(response => (this.msg = response.data.some))
   }
 }
 </script>
